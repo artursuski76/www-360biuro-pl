@@ -1,0 +1,46 @@
+---
+export const prerender = false;
+---
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel Administracyjny</title>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</head>
+<body>
+  <script is:inline>
+    window.CMS_MANUAL_INIT = true;
+
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.CMS) {
+        window.CMS.init({
+          config: {
+            load_config_file: false,
+            local_backend: true,
+            backend: { name: 'git-gateway' },
+            media_folder: 'public/images/uploads',
+            public_folder: '/images/uploads',
+            collections: [
+              {
+                name: 'articles',
+                label: 'Artykuły',
+                folder: 'src/content/articles',
+                create: true,
+                slug: '{{slug}}',
+                fields: [
+                  { label: 'Tytuł', name: 'title', widget: 'string' },
+                  { label: 'Opis (Description)', name: 'description', widget: 'string' },
+                  { label: 'Data', name: 'date', widget: 'datetime' },
+                  { label: 'Treść', name: 'body', widget: 'markdown' },
+                ],
+              },
+            ],
+          },
+        });
+      }
+    });
+  </script>
+</body>
+</html>

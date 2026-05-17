@@ -1,0 +1,38 @@
+---
+import { markdownify } from "@/lib/utils/textConverter";
+import { Image } from "astro:assets";
+import { render } from "astro:content";
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { title, image } = post.data;
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="col-12 md:col-8">
+        <article class="text-center">
+          {
+            image && (
+              <Image
+                src={image}
+                width={1000}
+                height={500}
+                alt={title}
+                class="rounded-lg"
+                format="webp"
+                quality="high"
+              />
+            )
+          }
+          <h1 set:html={markdownify(title)} class="h2 text-left my-6" />
+
+          <div class="content mb-16 text-left">
+            <Content />
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>

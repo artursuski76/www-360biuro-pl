@@ -1,0 +1,19 @@
+# Zamiast local_backend używamy wbudowanego trybu testowego
+cms_manual_init: true
+backend:
+  name: test-repo
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "blog"
+    label: "Artykuły"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Tytuł", name: "title", widget: "string" }
+      - { label: "Opis (Description)", name: "description", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Treść", name: "body", widget: "markdown" }
