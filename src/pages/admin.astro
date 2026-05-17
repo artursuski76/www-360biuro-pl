@@ -1,5 +1,11 @@
 ---
-export const prerender = false;
+// export const prerender = false;
+
+// Jeśli Astro buduje wersję produkcyjną do internetu, 
+// zablokuj generowanie strony i zwróć błąd 404
+if (import.meta.env.PROD) {
+  return Astro.redirect('/404');
+}
 ---
 <!doctype html>
 <html lang="pl">
