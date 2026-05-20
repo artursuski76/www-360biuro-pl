@@ -2,11 +2,53 @@ npm run cms
 
 npm run dev
 
+git push origin main
+
+******************************************************************
+
 git@github.com:artursuski76/www-360biuro-pl.git
 
+tylko pierwszy raz:
 git init
 git add .
 git commit -m "Wersja produkcyjna strony"
 git branch -M main
 git remote add origin https://github.com/artursuski76/www-360biuro-pl.git
 git push -u origin main
+
+
+
+przejście na wersję płatną w przyszłości będzie bardzo proste i absolutnie nie będziesz musiał pisać swoich artykułów na blogu od nowa.
+
+Wynika to z genialnej architektury systemu Astro i sposobu, w jaki teraz skonstruowałeś swój projekt. Twoje treści są całkowicie odizolowane od wyglądu strony.
+
+Oto dlaczego ta migracja będzie bezbolesna i jak będzie wyglądać w praktyce:
+
+1. Twoje artykuły są bezpieczne (Separacja treści od wyglądu)
+Wszystkie teksty, które piszesz teraz przez Decap CMS, zapisują się jako zwykłe pliki tekstowe .md lub .mdx w folderze src/content/articles/.
+
+Płatna wersja szablonu Bigspring używa dokładnie tego samego systemu (Astro Content Collections). Kiedy kupisz wersję pro:
+
+Pobierzesz nowy kod szablonu.
+
+Skopiujesz swój obecny folder src/content/articles/ i wkleisz go do nowego projektu.
+
+Skopiujesz folder ze zdjęciami public/images/uploads/.
+
+Nowy szablon od razu "zassie" wszystkie Twoje stare artykuły, daty i opisy. CMS i baza tekstów pozostają nienaruszone!
+
+2. Jak będzie wyglądać przejście na wersję Premium?
+Gdy zdecydujesz się na zakup wersji płatnej, cała operacja sprowadzi się do kilku kroków w Twoim VS Code:
+
+Pobranie czystego szablonu Pro: Dostaniesz od autorów plik .zip z kodem wersji płatnej. Rozpakujesz go jako nowy, osobny folder na dysku.
+
+Przeniesienie treści: Przerzucisz wspomniane foldery z artykułami i zdjęciami ze starego projektu do nowego.
+
+Przeniesienie konfiguracji CMS: Skopiujesz swój plik admin.astro, dzięki czemu Twój lokalny panel edytora będzie od razu gotowy do pracy w nowym szablonie.
+
+Podpięcie domeny: W nowym projekcie wkleisz swój adres https://www.360biuro.pl do pliku astro.config.mjs.
+
+Wysyłka na GitHuba: Podepniesz nowy folder pod to samo repozytorium na GitHubie (nadpisując stary kod wersji darmowej) i zrobisz git push. GitHub Actions zbuduje stronę na nowo, już w wersji Premium.
+
+
+

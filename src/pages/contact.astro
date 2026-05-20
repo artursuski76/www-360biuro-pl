@@ -19,13 +19,14 @@ const { title, description, info } = entry.data;
       <h1 class="text-center font-normal" set:html={markdownify(title)} />
       <div class="section row pb-0">
         <div class="col-12 md:col-6 lg:col-7">
-          <form class="contact-form" method="POST" action={contact_form_action}>
+          <form id="contact-form" class="contact-form">
+            <input type="hidden" name="access_key" value="379b789b-2102-4460-8393-a84c3c05a04e" />
             <div class="mb-3">
               <input
                 class="form-input w-full rounded"
                 name="name"
                 type="text"
-                placeholder="Name"
+                placeholder="Imię i nazwisko"
                 required
               />
             </div>
@@ -34,7 +35,7 @@ const { title, description, info } = entry.data;
                 class="form-input w-full rounded"
                 name="email"
                 type="email"
-                placeholder="Your email"
+                placeholder="Adres e-mail"
                 required
               />
             </div>
@@ -43,17 +44,20 @@ const { title, description, info } = entry.data;
                 class="form-input w-full rounded"
                 name="subject"
                 type="text"
-                placeholder="Subject"
+                placeholder="Temat"
                 required
               />
             </div>
             <div class="mb-3">
               <textarea
                 class="form-textarea w-full rounded-md"
+                name="message"
                 rows="5"
-                placeholder="Your message"></textarea>
+                placeholder="Wiadomość"
+                required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary"> Send Now</button>
+            <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
+            <p id="form-result" class="mt-4 hidden"></p>
           </form>
         </div>
         <div class="content col-12 md:col-6 lg:col-5">
@@ -76,3 +80,43 @@ const { title, description, info } = entry.data;
     </div>
   </section>
 </Base>
+
+<script>
+  const form = document.getElementById("contact-form") as HTMLFormElement;
+  const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+  const resultEl = document.getElementById("form-result") as HTMLParagraphElement;
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const originalText = submitBtn.textContent;
+
+    submitBtn.textContent = "Wysyłanie...";
+    submitBtn.disabled = true;
+    resultEl.className = "mt-4 hidden";
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await response.json();
+
+      if (response.ok) {
+        resultEl.textContent = "Wiadomość została wysłana. Odezwiemy się wkrótce!";
+        resultEl.className = "mt-4 text-green-600";
+        form.reset();
+      } else {
+        resultEl.textContent = "Błąd: " + data.message;
+        resultEl.className = "mt-4 text-red-600";
+      }
+    } catch {
+      resultEl.textContent = "Coś poszło nie tak. Spróbuj ponownie.";
+      resultEl.className = "mt-4 text-red-600";
+    } finally {
+      submitBtn.textContent = originalText;
+      submitBtn.disabled = false;
+    }
+  });
+</script>

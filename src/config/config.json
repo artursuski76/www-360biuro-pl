@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Bigspring Light Astro",
-    "base_url": "https://bigspring-light-astro.vercel.app",
+    "title": "360Biuro — Kompleksowe wsparcie dla biznesu i księgowości",
+    "base_url": "https://www.360biuro.pl",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "38",
-    "logo_text": "Bigspring Light"
+    "logo_text": "360BIURO"
   },
 
   "settings": {
@@ -18,13 +18,13 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "/contact"
+    "label": "Login",
+    "link": "/articles/logowanie-do-naszych-serwisów"
   },
 
   "params": {
     "contact_form_action": "#",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "footer_content": "",
     "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
   },
 

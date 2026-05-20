@@ -1,12 +1,12 @@
 ---
-title: "Contact Us"
-description: "meta description"
+title: "Kontakt"
+description: "Skontaktuj się z 360biuro – profesjonalne biuro rachunkowe online. Obsługujemy firmy z całej Polski."
 draft: false
 info:
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Dlaczego warto się z nami skontaktować?
+  description: Jesteśmy nowoczesnym biurem rachunkowym, które całą współpracę opiera na rozwiązaniach online. Niezależnie od tego, w którym miejscu w Polsce prowadzisz swój biznes, zapewniamy Ci stałe wsparcie, bezpieczny obieg dokumentów i sprawny kontakt bez konieczności wychodzenia z domu.
   contacts:
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Telefon: +48 510 531 400"
+    - "E-mail: [info@360biuro.pl](mailto:info@360biuro.pl)"
+    - "Obszar działania: Cała Polska (obsługa 100% online)"
 ---

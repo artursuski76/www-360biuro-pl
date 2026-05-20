@@ -1,75 +1,52 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Strona główna",
       "url": "/"
     },
     {
-      "name": "Blog",
+      "name": "Artykuły",
       "url": "/articles"
     },
     {
-      "name": "Pricing",
+      "name": "Cennik",
       "url": "/pricing"
     },
     {
-      "name": "Contact",
+      "name": "Kontakt",
       "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     }
+
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Firma",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Polityka Prywatności",
+          "url": "/articles/polityka-prywatności"
         },
         {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "Regulamin",
+          "url": "/articles/regulamin-serwisu-internetowego-360biuro-pl"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Oferta",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
+          "text": "Cennik",
           "url": "/pricing"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "Pomoc",
       "menu": [
         {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "/privacy-policy"
-        },
-        {
-          "text": "Terms & Conditions",
-          "url": "/terms-conditions"
+          "text": "Kontakt",
+          "url": "/contact"
         }
       ]
     }

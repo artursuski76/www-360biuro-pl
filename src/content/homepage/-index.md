@@ -1,93 +1,93 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  title: "360Biuro — Kompleksowe wsparcie dla biznesu i księgowości"
+  content: "Nowoczesne narzędzia IT, księgowość online, obsługa kadr i płac – wszystko w jednym miejscu. Wspieramy biura rachunkowe i przedsiębiorców w codziennej pracy, automatyzując procesy i minimalizując biurokrację."
   image: /images/banner-art.png
   button:
     enable: true
-    label: "Contact Us"
+    label: "Skontaktuj się"
     link: "/contact"
 
 # feature
 feature:
-  title: Something You Need To Know
+  title: Co oferujemy
   features:
-    - name: "Clean Code"
+    - name: "OCR dla dokumentów"
       icon: "/images/code.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-    - name: "Object Oriented"
+      content: "Automatyczne rozpoznawanie faktur i dokumentów kosztowych, nawet z odręcznych skanów."
+    - name: "Integracje IT"
       icon: "/images/oop.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-    - name: "24h Service"
+      content: "Integracje z systemami księgowymi, Allegro, WooCommerce i innymi platformami sprzedaży."
+    - name: "Obsługa 24/7"
       icon: "/images/user-clock.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-    - name: "Value for Money"
+      content: "Stały dostęp do systemu i dokumentów – Twoje biuro pracuje nawet po godzinach."
+    - name: "Automatyzacja procesów"
       icon: "/images/love.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-    - name: "Faster Response"
+      content: "Automatyzacja raportowania, windykacji i procesów HR – oszczędzaj czas i minimalizuj błędy."
+    - name: "Szybka obsługa"
       icon: "/images/speedometer.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-    - name: "Cloud Support"
+      content: "Sprawna komunikacja z klientami i terminowa realizacja obowiązków podatkowych."
+    - name: "Chmura i bezpieczeństwo"
       icon: "/images/cloud.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: "Bezpieczne przechowywanie dokumentów w chmurze z kontrolą dostępu dla klientów."
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "OCR dla biur rachunkowych"
+    content: "Udostępnij klientom prosty kanał do przesyłania dokumentów kosztowych z automatycznym rozpoznawaniem treści. Nasz system rozpozna faktury nawet z odręcznych skanów i zapobiegnie duplikatom. Usprawnij pracę biura i zapewnij sobie spokój przed terminami wysyłek."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
+      label: Dowiedz się więcej
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Usługi informatyczne dla księgowości"
+    content: "Rozwijamy narzędzia, które usprawniają codzienną pracę biur rachunkowych i firm. Oferujemy integracje z systemami księgowymi, obsługę serwisów sprzedaży (Allegro, WooCommerce i inne), automatyzację raportowania i windykacji oraz dedykowane rozwiązania IT dopasowane do Twoich potrzeb."
     images:
       - "/images/service-slide-1.png"
     button:
       enable: true
-      label: Check it out
+      label: Dowiedz się więcej
       link: /contact
 
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-
-  - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Kadry i płace"
+    content: "Kompleksowe wsparcie dla działu kadr i płac obejmuje prowadzenie dokumentacji kadrowej, rozliczanie wynagrodzeń oraz delegacji, wsparcie w legalizacji zatrudnienia cudzoziemców, a także profesjonalną obsługę zajęć komorniczych. Wszystko realizujemy zgodnie z przepisami prawa i z naciskiem na automatyzację procesów HR."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
       enable: true
-      label: Check it out
+      label: Dowiedz się więcej
+      link: /contact
+
+  - title: "Usługi księgowe"
+    content: "Zapewniamy kompleksową obsługę księgową firm usługowych, handlowych oraz z sektora transportowego. Automatycznie księgujemy sprzedaż z platform e-commerce takich jak Allegro, WooCommerce i Amazon. Zajmujemy się rozliczeniami i raportowaniem, dostosowując usługi do specyfiki Twojej branży."
+    images:
+      - "/images/service-slide-1.png"
+      - "/images/service-slide-2.png"
+      - "/images/service-slide-3.png"
+    button:
+      enable: true
+      label: Dowiedz się więcej
       link: /contact
 
 # workflow
 workflow:
-  title: "Experience the best workflow with us"
+  title: "Automatyzuj procesy i oszczędzaj czas"
   image: "/images/banner.png"
-  description: ""
+  description: "Nasze rozwiązania pozwalają skupić się na tym, co ważne – obsłudze klientów i rozwoju biznesu."
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Gotowy na współpracę?
+  content: "Skontaktuj się z nami i dowiedz się, jak możemy usprawnić pracę Twojego biura rachunkowego lub firmy."
   image: "/images/cta.png"
   button:
     enable: true
-    label: "Contact Us"
+    label: "Skontaktuj się"
     link: "/contact"
 ---
