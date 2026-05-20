@@ -10,26 +10,31 @@ banner:
 
 # feature
 feature:
-  title: Co oferujemy
+  title: Nasze usługi
   features:
-    - name: "OCR dla dokumentów"
+    - name: "Kompleksowa księgowość"
       icon: "/images/code.svg"
-      content: "Automatyczne rozpoznawanie faktur i dokumentów kosztowych, nawet z odręcznych skanów."
-    - name: "Integracje IT"
-      icon: "/images/oop.svg"
-      content: "Integracje z systemami księgowymi, Allegro, WooCommerce i innymi platformami sprzedaży."
-    - name: "Obsługa 24/7"
+      content: "Pełna i uproszczona księgowość dla firm. Bieżące rozliczenia podatkowe, optymalizacja i bezbłędne prowadzenie ksiąg."
+    
+    - name: "Kadry i płace"
       icon: "/images/user-clock.svg"
-      content: "Stały dostęp do systemu i dokumentów – Twoje biuro pracuje nawet po godzinach."
-    - name: "Automatyzacja procesów"
-      icon: "/images/love.svg"
-      content: "Automatyzacja raportowania, windykacji i procesów HR – oszczędzaj czas i minimalizuj błędy."
-    - name: "Szybka obsługa"
+      content: "Naliczanie wynagrodzeń, sporządzanie list płac, prowadzenie akt osobowych oraz pełna obsługa rozliczeń z ZUS i US."
+    
+    - name: "Dedykowane wsparcie IT"
+      icon: "/images/oop.svg"
+      content: "Integracje systemów księgowych z Allegro, WooCommerce i ERP. Wdrażanie narzędzi OCR do automatycznego czytania faktur."
+    
+    - name: "Rejestracja spółek (S24)"
       icon: "/images/speedometer.svg"
-      content: "Sprawna komunikacja z klientami i terminowa realizacja obowiązków podatkowych."
-    - name: "Chmura i bezpieczeństwo"
+      content: "Szybkie i bezstresowe zakładanie spółek przez system S24 oraz pełne wsparcie przy obsłudze Portalu Rejestrów Sądowych (PRS)."
+    
+    - name: "Wsparcie biurowe i administracja"
+      icon: "/images/love.svg"
+      content: "Bieżąca obsługa dokumentacji, automatyzacja raportowania, windykacji i procesów HR – odciążamy Cię z biurokracji."
+    
+    - name: "E-biuro w chmurze"
       icon: "/images/cloud.svg"
-      content: "Bezpieczne przechowywanie dokumentów w chmurze z kontrolą dostępu dla klientów."
+      content: "Bezpieczny dostęp do Twoich dokumentów i raportów 24/7 z dowolnego miejsca na świecie."
 
 # services
 services:

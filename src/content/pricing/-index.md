@@ -1,5 +1,5 @@
 ---
-title: Cennik usług księgowych
+title: Cennik usługowego prowadzenia pełnej księgowości, kadr i płac oraz wsparcia informatycznego
 description: "meta description"
 draft: false
 plans:

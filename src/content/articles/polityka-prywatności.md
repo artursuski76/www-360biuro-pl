@@ -6,8 +6,8 @@ date: 2026-05-19T17:19:00.000+02:00
 ---
 ## **1. Informacje ogólne**
 
-1. Niniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: www.360biuro.pl
-2. Operatorem serwisu oraz Administratorem danych osobowych jest: HD76 PROSTA SPÓŁKA AKCYJNA UL. OSTRÓDZKA 18, 14-100 SAMBOROWO
+1. Niniejsza polityka dotyczy Serwisów www, funkcjonujących pod adresami url: *.360biuro.pl
+2. Operatorem serwisów oraz Administratorem danych osobowych jest: 360BIURO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, UL. OSTRÓDZKA 18, 14-100 SAMBOROWO
 3. Adres kontaktowy poczty elektronicznej operatora: info@360biuro.pl
 4. Operator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.
 5. Serwis wykorzystuje dane osobowe w następujących celach:
@@ -106,29 +106,13 @@ date: 2026-05-19T17:19:00.000+02:00
 1. Jeśli użytkownik nie chce otrzymywać plików cookies, może zmienić ustawienia przeglądarki. Zastrzegamy, że wyłączenie obsługi plików cookies niezbędnych dla procesów uwierzytelniania, bezpieczeństwa, utrzymania preferencji użytkownika może utrudnić, a w skrajnych przypadkach może uniemożliwić korzystanie ze stron www
 2. W celu zarządzania ustawienia cookies wybierz z listy poniżej przeglądarkę internetową, której używasz i postępuj zgodnie z instrukcjami:
 
-*   [Edge](https://support.microsoft.com/pl-pl/help/10607/microsoft-edge-view-delete-browser-history)
-
-
-*   [Internet Explorer](https://support.microsoft.com/pl-pl/help/278835/how-to-delete-cookie-files-in-internet-explorer)
-
-
-*   [Chrome](http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647)
-
-
-*   [Safari](http://support.apple.com/kb/PH5042)
-
-
-*   [Firefox](http://support.mozilla.org/pl/kb/W%C5%82%C4%85czanie%20i%20wy%C5%82%C4%85czanie%20obs%C5%82ugi%20ciasteczek)
-
-
-*   [Opera](http://help.opera.com/Windows/12.10/pl/cookies.html)
-
-
+* [Edge](https://support.microsoft.com/pl-pl/help/10607/microsoft-edge-view-delete-browser-history)
+* [Internet Explorer](https://support.microsoft.com/pl-pl/help/278835/how-to-delete-cookie-files-in-internet-explorer)
+* [Chrome](http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647)
+* [Safari](http://support.apple.com/kb/PH5042)
+* [Firefox](http://support.mozilla.org/pl/kb/W%C5%82%C4%85czanie%20i%20wy%C5%82%C4%85czanie%20obs%C5%82ugi%20ciasteczek)
+* [Opera](http://help.opera.com/Windows/12.10/pl/cookies.html)
 * Urządzenia mobilne:
-*   [Android](http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647)
-
-
-*   [Safari (iOS)](http://support.apple.com/kb/HT1677?viewlocale=pl_PL)
-
-
-*   [Windows Phone](http://www.windowsphone.com/pl-pl/how-to/wp7/web/changing-privacy-and-other-browser-settings)
+* [Android](http://support.google.com/chrome/bin/answer.py?hl=pl&answer=95647)
+* [Safari (iOS)](http://support.apple.com/kb/HT1677?viewlocale=pl_PL)
+* [Windows Phone](http://www.windowsphone.com/pl-pl/how-to/wp7/web/changing-privacy-and-other-browser-settings)

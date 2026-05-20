@@ -6,15 +6,15 @@ date: 2026-05-19T17:13:00.000+02:00
 ---
 **§1. Postanowienia ogólne**
 
-1. Niniejszy Regulamin określa zasady korzystania z serwisu internetowego 360Biuro.pl, zwanego dalej „Platformą”.
-2. Właścicielem i operatorem Platformy jest: HD76 PROSTA SPÓŁKA AKCYJNA, ul. Ostródzka 18, 14-100 Samborowo, NIP: 7412169812, KRS: 0001108432, REGON: 528820622, dalej jako „Operator”.
-3. Korzystanie z Platformy, w tym założenie Konta, oznacza akceptację niniejszego Regulaminu, Polityki Prywatności dostępnej pod linkiem https://www.360biuro.pl/articles/polityka-prywatnosci i cennika dostępnego pod linkiem https://www.360biuro.pl/articles/pricelist.
+1. Niniejszy Regulamin określa zasady korzystania z serwisów internetowych pod adresami *.360Biuro.pl, zwanych dalej „Platformą”.
+2. Właścicielem i operatorem Platformy jest: 360BIURO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ, ul. Ostródzka 18, 14-100 Samborowo, NIP: 7412176226, KRS: 0001240518, REGON: 54470349900000, dalej jako „Operator”.
+3. Korzystanie z Platformy, w tym założenie Konta, oznacza akceptację niniejszego Regulaminu, Polityki Prywatności i cennika.
 
 **§2. Definicje**
 
 1. **Platforma**
 
-    – serwis internetowy 360Biuro.pl udostępniany przez Operatora wraz z jego wszystkimi funkcjonalnościami.
+    – serwisy internetowe *.360Biuro.pl udostępniane przez Operatora wraz z jego wszystkimi funkcjonalnościami.
 2. **Użytkownik**
 
     – osoba fizyczna, osoba prawna lub jednostka organizacyjna nieposiadająca osobowości prawnej, która posiada Konto na Platformie.
