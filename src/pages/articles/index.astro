@@ -26,41 +26,27 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
         set:html={markdownify(postIndex?.data.title)}
       />
       <div class="row pb-12">
-        <div class="row col-12 pb-24 pt-16">
-          <div class="md:col-6">
-            {
-              currentPosts[0].data.image && (
-                <Image
-                  class="rounded-lg"
-                  src={currentPosts[0].data.image}
-                  alt={currentPosts[0].data.title}
-                  width={925}
-                  height={475}
-                />
-              )
-            }
-          </div>
-          <div class="md:col-6">
-            <h2 class="h3 mb-2 mt-4">
-              <a
-                href={`/articles/${currentPosts[0].id}`}
-                class="block hover:text-primary"
-              >
-                {currentPosts[0].data.title}
-              </a>
-            </h2>
-            <p
-              set:html={plainify(currentPosts[0].body.slice(0, summary_length))}
-            />
-            <a
-              class="btn btn-primary mt-4"
-              href={`/articles/${currentPosts[0].id}`}
-              rel=""
-            >
-              Read More
-            </a>
-          </div>
-        </div>
+      <div class="col-12 pb-16 pt-12">
+        <h2 class="h2 mb-4">
+          <a
+            href={`/articles/${currentPosts[0].id}`}
+            class="block hover:text-primary"
+          >
+            {currentPosts[0].data.title}
+          </a>
+        </h2>
+        <p
+          class="text-lg" 
+          set:html={plainify(currentPosts[0].body.slice(0, summary_length))}
+        />
+        <a
+          class="btn btn-primary mt-6"
+          href={`/articles/${currentPosts[0].id}`}
+          rel=""
+        >
+          Czytaj więcej
+        </a>
+      </div>
         {
           currentPosts.slice(1).map((post) => (
             <div class="col-12 mb-8 sm:col-6 lg:col-4">

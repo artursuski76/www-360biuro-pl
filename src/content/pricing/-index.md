@@ -3,9 +3,9 @@ title: Cennik usług księgowych
 description: "meta description"
 draft: false
 plans:
-- title: BASIC
-  subtitle: "Orientacyjna maks. liczba operacji: 10"
-  price: 480
+- title: START
+  subtitle: "Małe firmy rozpoczynające działalność gospodarczą. Minimalna liczba dokumentów w miesiącu, proste i powtarzalne rozliczenia."
+  price: 490
   type: msc
   features:
     - "Maks. czas świadczenia usług: 1 godz./msc"
@@ -14,47 +14,47 @@ plans:
     label: Wybierz plan
     link: "/contact"
 
-- title: STANDARD
-  subtitle: "Orientacyjna maks. liczba operacji: 100"
-  price: 960
+- title: MINI
+  subtitle: "Rozwijające się działalności z kilkudziesięcioma dokumentami lub mikro-zespołem (1-3 pracowników). Standardowe, przejrzyste procesy."
+  price: 840
   type: msc
   recommended: true
   features:
-    - "Maks. czas świadczenia usług: 4 godz./msc"
-    - "Koszt usług poza abonamentem: 360 zł/godz."
+    - "Maks. czas świadczenia usług: 3 godz./msc"
+    - "Koszt usług poza abonamentem: 288 zł/godz."
   button:
     label: Wybierz plan
     link: "/contact"
 
-- title: BUSINESS
-  subtitle: "Orientacyjna maks. liczba operacji: 300"
-  price: 1920
+- title: MIDI
+  subtitle: "Firmy o stabilnej pozycji, generujące regularny ruch dokumentowy. Posiadające kilkuosobowy zespół pracowniczy i zróżnicowane operacje."
+  price: 1540
   type: msc
   features:
-    - "Maks. czas świadczenia usług: 8 godz./msc"
-    - "Koszt usług poza abonamentem: 360 zł/godz."
+    - "Maks. czas świadczenia usług: 9 godz./msc"
+    - "Koszt usług poza abonamentem: 230,40 zł/godz."
   button:
     label: Wybierz plan
     link: "/contact"
 
-- title: ADVANCED
-  subtitle: "Orientacyjna maks. liczba operacji: 900"
-  price: 3840
+- title: MAXI
+  subtitle: "Firmy z dużą rotacją dokumentów, rozbudowaną kadrą lub specyficznymi, wielowątkowymi wymaganiami księgowo-kadrowymi."
+  price: 2940
   type: msc
   features:
-    - "Maks. czas świadczenia usług: 16 godz./msc"
-    - "Koszt usług poza abonamentem: 360 zł/godz."
+    - "Maks. czas świadczenia usług: 27 godz./msc"
+    - "Koszt usług poza abonamentem: 184,32 zł/godz."
   button:
     label: Wybierz plan
     link: "/contact"
 
-- title: ENTERPRISE
-  subtitle: "Orientacyjna maks. liczba operacji: 2700"
-  price: 7680
+- title: ULTRA
+  subtitle: "Przedsiębiorstwa o bardzo wysokim wolumenie operacji. Wymagające stałego, codziennego wsparcia, raportowania i obsługi licznego personelu."
+  price: 5740
   type: msc
   features:
-    - "Maks. czas świadczenia usług: 32 godz./msc"
-    - "Koszt usług poza abonamentem: 360 zł/godz."
+    - "Maks. czas świadczenia usług: 81 godz./msc"
+    - "Koszt usług poza abonamentem: 147,46zł/godz."
   button:
     label: Wybierz plan
     link: "/contact"
